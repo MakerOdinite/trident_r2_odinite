@@ -1,0 +1,3 @@
+[submodule "official_trident_r2"]
+	path = official_trident_r2
+	url = https://github.com/VoronDesign/Voron-Trident.git
