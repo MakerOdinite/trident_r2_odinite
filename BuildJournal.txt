@@ -1,0 +1,27 @@
+2026_09_12
+
+Spent hours on and off previous weeks figuring out how I was going to build this. I do not necessarily recommend any of these changes for you, they are where my research led me after considering previous failures on other printer builds and modifications, what parts were available to me, and what parts I was able to source. Long story short, these were my priority upgrades:
+  * trap nuts replace with PEEK due to known issue
+  * want a heated chamber for ABS and ASA, this led to:
+    + trident r2 supports a longer shaft, went to a 1.8deg stepper, class h for AB motors. (OMC 17HS19-2504S-H-V6)
+    + higher current rating, lower resistance and lower inductance, so upgrade from TMC2209 to TMC5160 Pro
+    + Gates EDPM high temp belts
+    + As long as we've gone this far, might as well "belt-and-suspenders" motor cooling (my primary failure on previous printers) and add 40x40x11 aluminum heatsinks with a fan
+  * Clicky Clack door
+  * Stealthmax V2 recirculation filtration
+  * ACM panels
+  * I will need custom designed top hat to have space for the Bondtech INDX (7 tools) and PTFE tubes. Also clearance for stealthmax V2
+  * industrial fans (e.g. Delta)
+  * minimize electronics in the bottom bay --> manta m8p v2.0, cm5, btt hdmi5 screen
+    + needed to cool cm5.... going to attempt a copper heat spreader with aluminum fins and an axial fan if space allows.
+  * minimize potential issues with power --> use a meanwell RSP psu
+
+Spent time figuring out how I'm going to assemble my virtual build. I will standardize on Solidworks (as that is where most my experience is). How to download fusion 360 so I can export f3d files to step. I will provide a final assembly in step as well.
+
+Added the official trident r2 as a submodule and the clicky clack door. I will be using the Stealthpress 1S in this build, but there is not a repo (only a Printables page). So I added to a folder along with the GPL_v3 license. I will do my best to add licenses on work or parts I use to derive new parts.
+
+Spent time organizing parts, removing the ones I don't plan on using, and adding in the ones I will. My ultimate goal is to organize an assembly with the parts I have on hand for each step of the build, then build it physically with my virtual build as reference.
+
+Today I replaced trap nuts with PEEK. Wow, the stock nuts (never used) were very loose and already had wear (dust present).... this was a known issue, but I was quite surprised at the initial state of it! Spent time wiping down the z axis carefully with IPA, then installed new ones. First two were tight but easy. The last one has very snug and I didn't want to bend the rod. Turns out, spraying with some IPA (top and bottom) was enough to get it going.
+
+NOTE FOR BUILD: put the stiffer z (near hinge of box) as the central z axis motor.
