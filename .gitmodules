@@ -1,3 +1,6 @@
 [submodule "official_trident_r2"]
 	path = official_trident_r2
 	url = https://github.com/VoronDesign/Voron-Trident.git
+[submodule "clicky_clack_door"]
+	path = clicky_clack_door
+	url = https://github.com/tanaes/whopping_Voron_mods.git
