@@ -1,0 +1,4 @@
+LDO kit matches a batch 2 release, without included Pi and 32GB sd card instead of 16GB.
+
+Minimized pdf with ghostscript:
+gs --% -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dColorConversionStrategy=/LeaveColorUnchanged -dBlendConversionStrategy=/None -dDownsampleColorImages=true -dDownsampleGrayImages=true -dDownsampleMonoImages=true -dColorImageResolution=300 -dGrayImageResolution=300 -dMonoImageResolution=300 -dColorImageDepth=-1 -dGrayImageDepth=-1 -dMonoImageDepth=-1 -dAutoFilterColorImages=false -dAutoFilterGrayImages=false -dColorImageFilter=/FlateEncode -dGrayImageFilter=/FlateEncode -dNOPAUSE -dQUIET -dBATCH -sOutputFile="LDO Voron Trident 300 Wiring Guide (Rev. A_C) _ LDO Documentation.pdf" "LDO Voron Trident 300 Wiring Guide (Rev. A_C) _ LDO Documentation_big.pdf"

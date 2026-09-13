@@ -1,3 +1,14 @@
+2026_09_13
+
+Started pulling and cross referencing the original LDO kit documentation. I will need to pay close attention to which parts to print. I'm concerned about the z chain belt and exactly what parts aren't needed. There is also a difference in deck panel thickness to be aware of. Virtual build should solve these issues!
+
+Came across an interesting mod.... now I'm curious if I should attempt CNC some parts out of aluminum at work (AB motor mounts, XY Joints with Live Idlers). In general I've always preferred a pin over a screw for any rotational axle.
+
+https://www.printables.com/model/1755070-voron-trident-r2-pinned-gantry-and-live-idler-xy-j/files
+
+LDO kit matches a batch 2 release, without included Pi and 32GB sd card instead of 16GB.
+
+-------------------------------------------------
 2026_09_12
 
 Spent hours on and off previous weeks figuring out how I was going to build this. I do not necessarily recommend any of these changes for you, they are where my research led me after considering previous failures on other printer builds and modifications, what parts were available to me, and what parts I was able to source. Long story short, these were my priority upgrades:
